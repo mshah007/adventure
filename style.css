@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-image img {
+  width: 100vw;
+  height: 80vh;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 43%,
+    100% 77%,
+    68% 88%,
+    32% 92%,
+    0 91%,
+    0 44%,
+    0 0
+  );
+}
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+}
+.logo img {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  position: absolute;
+  top: 370px;
+  width: 100%;
+}
+.menu ul li {
+  font-size: 20px;
+  padding: 0 20px;
+}
+.heading-title {
+  position: relative;
+  top: -300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 500px;
+}
+.heading-paragraph p {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: -280px;
+}
+.section1 {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+.section1 h1 {
+  margin-bottom: 20px;
+}
+
+.section1 p {
+  margin-bottom: 25px;
+}
+.free {
+  font-weight: bold;
+}
+button {
+  font-size: 20px;
+  border: none;
+  padding: 20px 35px;
+  background-color: darkgreen;
+  color: white;
+  border-radius: 30px;
+}
+.section2 {
+  background: linear-gradient(
+    0deg,
+    rgba(251, 249, 249, 1) 0%,
+    rgba(177, 177, 177, 1) 100%
+  );
+}
+.section2 h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+.section2 h2 {
+  text-align: center;
+  margin: 20px;
+}
+.section2 h3 {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.side-panels {
+  display: flex;
+}
+.left-panel {
+  width: 50%;
+  padding: 20px;
+}
+.right-panel {
+  width: 50%;
+}
+.right-panel img {
+  width: 400px;
+  height: 500px;
+}
+.left-panel p {
+  margin-bottom: 25px;
+}
+.right-panel {
+  display: flex;
+  align-items: center;
+}
+.section3 {
+  width: 600px;
+  height: 80vh;
+  text-align: left;
+  margin: 0 auto;
+}
+.section3 p {
+  padding: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.btn button {
+  margin-bottom: 40px;
+}
+.section4 ul {
+  background-color: #c4cad1;
+  color: green;
+  margin-top: 40px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 50px;
+  text-decoration: underline;
+}
